@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_29f7481f366b2bcccace701733cf39ff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_29f7481f366b2bcccace701733cf39ff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_29f7481f366b2bcccace701733cf39ff = L.map(
+                "map_29f7481f366b2bcccace701733cf39ff",
+                {
+                    center: [28.601618370769042, 77.09884133268903],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d20d12c0cf0548c0cfeb5f9d6035f295 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d20d12c0cf0548c0cfeb5f9d6035f295.addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+            var circle_marker_10a67f7c75053731c51dd1ae60f862bb = L.circleMarker(
+                [28.4064973, 76.84683874999999],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_4d6624c89683a9c0c408a7395f4b1246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cf504caf774746e8d966ae651164d80 = $(`<div id="html_5cf504caf774746e8d966ae651164d80" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹70.15</div>`)[0];
+                popup_4d6624c89683a9c0c408a7395f4b1246.setContent(html_5cf504caf774746e8d966ae651164d80);
+            
+        
+
+        circle_marker_10a67f7c75053731c51dd1ae60f862bb.bindPopup(popup_4d6624c89683a9c0c408a7395f4b1246)
+        ;
+
+        
+    
+    
+            var circle_marker_05afcf21d535a65ee01c3079abafb14a = L.circleMarker(
+                [28.48076409325806, 76.8877321744065],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_b8f0f245275c9f1806691f26599ab532 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc7a111421ed6615e4411d4e19564c7f = $(`<div id="html_dc7a111421ed6615e4411d4e19564c7f" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹73.97</div>`)[0];
+                popup_b8f0f245275c9f1806691f26599ab532.setContent(html_dc7a111421ed6615e4411d4e19564c7f);
+            
+        
+
+        circle_marker_05afcf21d535a65ee01c3079abafb14a.bindPopup(popup_b8f0f245275c9f1806691f26599ab532)
+        ;
+
+        
+    
+    
+            var circle_marker_5ac2beb6f44a21ee58a40c526ebc0f59 = L.circleMarker(
+                [28.448302248228533, 76.97693398413578],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_cdd6f2f50e1daa567e096aec6bb20067 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78bc68a17c414e9dfe0ed2193f027412 = $(`<div id="html_78bc68a17c414e9dfe0ed2193f027412" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹75.98</div>`)[0];
+                popup_cdd6f2f50e1daa567e096aec6bb20067.setContent(html_78bc68a17c414e9dfe0ed2193f027412);
+            
+        
+
+        circle_marker_5ac2beb6f44a21ee58a40c526ebc0f59.bindPopup(popup_cdd6f2f50e1daa567e096aec6bb20067)
+        ;
+
+        
+    
+    
+            var circle_marker_9b21435545a62b9b909300bfd0bc9966 = L.circleMarker(
+                [28.7352771652405, 77.09905201738194],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_9c9a4671fb1c6fccbadde11504566ccb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72673015ae71f63cc94a537dfbce01d4 = $(`<div id="html_72673015ae71f63cc94a537dfbce01d4" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹83.79</div>`)[0];
+                popup_9c9a4671fb1c6fccbadde11504566ccb.setContent(html_72673015ae71f63cc94a537dfbce01d4);
+            
+        
+
+        circle_marker_9b21435545a62b9b909300bfd0bc9966.bindPopup(popup_9c9a4671fb1c6fccbadde11504566ccb)
+        ;
+
+        
+    
+    
+            var circle_marker_716aefcc8ed7b7648a0c7c8180dd8d1d = L.circleMarker(
+                [28.537859980538027, 77.0282216431261],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_668689a3ebb47928394b7fb067f96fe9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bdfc73ef699e593e99915a9724f405a = $(`<div id="html_9bdfc73ef699e593e99915a9724f405a" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹84.57</div>`)[0];
+                popup_668689a3ebb47928394b7fb067f96fe9.setContent(html_9bdfc73ef699e593e99915a9724f405a);
+            
+        
+
+        circle_marker_716aefcc8ed7b7648a0c7c8180dd8d1d.bindPopup(popup_668689a3ebb47928394b7fb067f96fe9)
+        ;
+
+        
+    
+    
+            var circle_marker_779be49e4a35d6f9103576f0896865a1 = L.circleMarker(
+                [28.413679887457874, 76.91777201957574],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_97ca62ec66f8ca2b9893d2054b0433e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09b45a317c7fb251198ba05945c78908 = $(`<div id="html_09b45a317c7fb251198ba05945c78908" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹84.61</div>`)[0];
+                popup_97ca62ec66f8ca2b9893d2054b0433e1.setContent(html_09b45a317c7fb251198ba05945c78908);
+            
+        
+
+        circle_marker_779be49e4a35d6f9103576f0896865a1.bindPopup(popup_97ca62ec66f8ca2b9893d2054b0433e1)
+        ;
+
+        
+    
+    
+            var circle_marker_cddbc326f90d1ecc36dfaf4a71e49228 = L.circleMarker(
+                [28.528006142296004, 77.0474465949269],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_761a1b25696caca8d8b6b2ace76468b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e8fa2b7e8d54b2d98a30a86bac0d8b6 = $(`<div id="html_7e8fa2b7e8d54b2d98a30a86bac0d8b6" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹86.48</div>`)[0];
+                popup_761a1b25696caca8d8b6b2ace76468b0.setContent(html_7e8fa2b7e8d54b2d98a30a86bac0d8b6);
+            
+        
+
+        circle_marker_cddbc326f90d1ecc36dfaf4a71e49228.bindPopup(popup_761a1b25696caca8d8b6b2ace76468b0)
+        ;
+
+        
+    
+    
+            var circle_marker_67bfdfc7fc72da4993181985fffa6b99 = L.circleMarker(
+                [28.43981411652858, 76.87661281681777],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_c8c64400ce2423ff4b0a08fdeec1f50e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d70cd41449e9b659a5140034876fae63 = $(`<div id="html_d70cd41449e9b659a5140034876fae63" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹87.22</div>`)[0];
+                popup_c8c64400ce2423ff4b0a08fdeec1f50e.setContent(html_d70cd41449e9b659a5140034876fae63);
+            
+        
+
+        circle_marker_67bfdfc7fc72da4993181985fffa6b99.bindPopup(popup_c8c64400ce2423ff4b0a08fdeec1f50e)
+        ;
+
+        
+    
+    
+            var circle_marker_f23d4a76f3623cd1da54c77c50856a6c = L.circleMarker(
+                [28.421056511671555, 76.97664818185169],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_22719f76279ca241f94c6ec5e7bb914f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e36ae8a3838420bbdbd2d987a9e4228b = $(`<div id="html_e36ae8a3838420bbdbd2d987a9e4228b" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹89.99</div>`)[0];
+                popup_22719f76279ca241f94c6ec5e7bb914f.setContent(html_e36ae8a3838420bbdbd2d987a9e4228b);
+            
+        
+
+        circle_marker_f23d4a76f3623cd1da54c77c50856a6c.bindPopup(popup_22719f76279ca241f94c6ec5e7bb914f)
+        ;
+
+        
+    
+    
+            var circle_marker_8168c3a4539d2b44dd44fc82cf526c04 = L.circleMarker(
+                [28.466918850199814, 76.90265926592222],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_29f7481f366b2bcccace701733cf39ff);
+        
+    
+        var popup_e659eb710ffcb9672314f9e3e311feaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a57f7a8d2c87ed4f0fd0ad9ce62926fb = $(`<div id="html_a57f7a8d2c87ed4f0fd0ad9ce62926fb" style="width: 100.0%; height: 100.0%;">Orders: 3, AOV: ₹90.48</div>`)[0];
+                popup_e659eb710ffcb9672314f9e3e311feaf.setContent(html_a57f7a8d2c87ed4f0fd0ad9ce62926fb);
+            
+        
+
+        circle_marker_8168c3a4539d2b44dd44fc82cf526c04.bindPopup(popup_e659eb710ffcb9672314f9e3e311feaf)
+        ;
+
+        
+    
+</script>
+</html>
